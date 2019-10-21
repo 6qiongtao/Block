@@ -1,11 +1,8 @@
-
 GOPATH:=$(shell go env GOPATH)
-
 
 .PHONY: build
 build:
-
-	go build -o route-web main.go plugin.go
+	go build -o routeweb main.go plugin.go
 
 .PHONY: test
 test:
@@ -13,4 +10,4 @@ test:
 
 .PHONY: docker
 docker:
-	docker build . -t route-web:latest
+	docker build . -t routeweb:latest

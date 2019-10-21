@@ -1,5 +1,5 @@
 FROM alpine
 ADD html /html
-ADD route-web /route-web
+ADD routeweb /routeweb
 WORKDIR /
-ENTRYPOINT [ "/route-web" ]
+ENTRYPOINT [ "/routeweb" ]

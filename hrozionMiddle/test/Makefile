@@ -1,4 +1,3 @@
-
 GOPATH:=$(shell go env GOPATH)
 
 
@@ -9,7 +8,7 @@ proto:
 .PHONY: build
 build: proto
 
-	go build -o test-srv main.go plugin.go
+	go build -o testsrv main.go plugin.go
 
 .PHONY: test
 test:
@@ -17,4 +16,4 @@ test:
 
 .PHONY: docker
 docker:
-	docker build . -t test-srv:latest
+	docker build . -t testsrv:latest
