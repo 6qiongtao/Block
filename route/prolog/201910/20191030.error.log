@@ -1,0 +1,30 @@
+2019/10/30 16:52:12 log.go:46: [[ ====>docker-compose env AppLogLevel: ] /Users/Barry/go/src/vtoken_digiccy_go/route/handler/handler.go 27] 
+
+2019/10/30 16:52:12 log.go:46: [[0 URI: 127.0.0.1:9999 /example/call err: {"id":"go.micro.client","code":500,"detail":"service go.micro.srv.test: not found","status":"Internal Server Error"} code: 500] /Users/Barry/go/src/vtoken_digiccy_go/route/handler/handler.go 73] 
+
+2019/10/30 16:53:03 log.go:46: [[ ====>docker-compose env AppLogLevel: ] /Users/Barry/go/src/vtoken_digiccy_go/route/handler/handler.go 27] 
+
+2019/10/30 16:53:03 log.go:46: [[0 URI: 127.0.0.1:9999 /example/call err: {"id":"go.micro.client","code":500,"detail":"service go.micro.srv.test: not found","status":"Internal Server Error"} code: 500] /Users/Barry/go/src/vtoken_digiccy_go/route/handler/handler.go 73] 
+
+2019/10/30 16:53:55 log.go:46: [[ ====>docker-compose env AppLogLevel: ] /Users/Barry/go/src/vtoken_digiccy_go/route/handler/handler.go 27] 
+
+2019/10/30 16:53:57 log.go:46: [[ ====>docker-compose env AppLogLevel: ] /Users/Barry/go/src/vtoken_digiccy_go/route/handler/handler.go 27] 
+
+2019/10/30 18:27:58 log.go:46: [[ ====>docker-compose env AppLogLevel: ] /Users/Barry/go/src/vtoken_digiccy_go/route/handler/handler.go 63] 
+
+2019/10/30 18:27:58 log.go:46: [[0 URI: 127.0.0.1:9999 /example/call err: {"id":"go.micro.client","code":500,"detail":"service go.micro.srv.test: not found","status":"Internal Server Error"} code: 500] /Users/Barry/go/src/vtoken_digiccy_go/route/handler/handler.go 109] 
+
+2019/10/30 18:31:32 log.go:46: [[ ====>docker-compose env AppLogLevel: ] /Users/Barry/go/src/vtoken_digiccy_go/route/handler/handler.go 31] 
+
+2019/10/30 18:31:44 log.go:46: [[ ====>docker-compose env AppLogLevel: ] /Users/Barry/go/src/vtoken_digiccy_go/route/handler/handler.go 63] 
+
+2019/10/30 18:31:46 log.go:46: [[ ====>docker-compose env AppLogLevel: ] /Users/Barry/go/src/vtoken_digiccy_go/route/handler/handler.go 63] 
+
+2019/10/30 18:43:31 log.go:46: [[ ====>docker-compose env AppLogLevel: ] /Users/Barry/go/src/vtoken_digiccy_go/route/handler/handler.go 63] 
+
+2019/10/30 18:43:38 log.go:46: [[ ====>docker-compose env AppLogLevel: ] /Users/Barry/go/src/vtoken_digiccy_go/route/handler/handler.go 63] 
+
+2019/10/30 18:43:38 log.go:46: [[ ====>docker-compose env AppLogLevel: ] /Users/Barry/go/src/vtoken_digiccy_go/route/handler/handler.go 63] 
+
+2019/10/30 18:43:38 log.go:46: [[ ====>docker-compose env AppLogLevel: ] /Users/Barry/go/src/vtoken_digiccy_go/route/handler/handler.go 63] 
+

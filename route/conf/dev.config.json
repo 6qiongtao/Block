@@ -1,0 +1,5 @@
+{
+    "EmailMerchant":"test",
+    "AlertEmail":"route模块错误",
+    "ConsulAddr": "127.0.0.1:18500"
+}

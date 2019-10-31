@@ -1,0 +1,32 @@
+consul:
+  command: agent -server -bootstrap-expect=1  -node=node1 -client 0.0.0.0 -ui -bind=0.0.0.0 -join 127.0.0.2
+  image: consul:latest
+  hostname: "registry"
+  ports:
+    - "18300:8300"
+    - "18400:8400"
+    - "18500:8500"
+    - "18600:53/udp"
+#
+#route:
+#  command: --registry consul --registry_address=registry:8500 --register_interval=5 --register_ttl=10 web
+#  build: ./route
+#  links:
+#    - consul
+#  ports:
+#    - "19999:9999"
+#  environment:
+#    - SERVICE_NAME=vtoken_digiccy_go_route
+#    - APP_LOG_LEVEL=debug
+
+#test:
+#  #覆盖启动后的执行命令
+#  command: --registry consul --registry_address=registry:8500 --register_interval=5 --register_ttl=10 srv
+#  build: ./test
+#  links:
+#    - consul
+##  ports:
+##    - "18888:8888"
+#  environment:
+#    - SERVICE_NAME=vtoken_digiccy_go_test
+#    - APP_LOG_LEVEL=debug

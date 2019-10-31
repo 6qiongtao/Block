@@ -1,0 +1,4 @@
+2019/10/29 10:10:35 log.go:46: [[0 handler POST TestCall /example/call] /Users/Barry/go/src/vtoken_digiccy_go/test/handler/test.go 17] 
+
+2019/10/29 10:16:00 log.go:46: [[0 handler POST TestCall /example/call] /Users/Barry/go/src/vtoken_digiccy_go/test/handler/test.go 17] 
+

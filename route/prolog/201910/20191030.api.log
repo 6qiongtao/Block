@@ -1,0 +1,16 @@
+2019/10/30 16:53:55 log.go:46: [URI: 127.0.0.1:9999 /example/call Method: POST RequestBody: map[name:John] ResponseBody: map[msg:Hello John ref:1572425635288636000]] 
+
+2019/10/30 16:53:57 log.go:46: [URI: 127.0.0.1:9999 /example/call Method: POST RequestBody: map[name:123] ResponseBody: map[msg:Hello 123 ref:1572425637201032000]] 
+
+2019/10/30 18:31:44 log.go:46: [URI: 127.0.0.1:9999 /example/call Method: POST RequestBody: map[name:John] ResponseBody: map[msg:Hello John ref:1572431504951684000]] 
+
+2019/10/30 18:31:46 log.go:46: [URI: 127.0.0.1:9999 /example/call Method: POST RequestBody: map[name:123] ResponseBody: map[msg:Hello 123 ref:1572431506539506000]] 
+
+2019/10/30 18:43:31 log.go:46: [URI: 127.0.0.1:9999 /example/call Method: POST RequestBody: map[name:12345] ResponseBody: map[msg:Hello 12345 ref:1572432211603206000]] 
+
+2019/10/30 18:43:38 log.go:46: [URI: 127.0.0.1:9999 /example/call Method: POST RequestBody: map[name:12345] ResponseBody: map[msg:Hello 12345 ref:1572432218646781000]] 
+
+2019/10/30 18:43:38 log.go:46: [URI: 127.0.0.1:9999 /example/call Method: POST RequestBody: map[name:12345] ResponseBody: map[msg:Hello 12345 ref:1572432218815327000]] 
+
+2019/10/30 18:43:39 log.go:46: [URI: 127.0.0.1:9999 /example/call Method: POST RequestBody: map[name:12345] ResponseBody: map[msg:Hello 12345 ref:1572432219001186000]] 
+
